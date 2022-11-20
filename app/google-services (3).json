@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "418500689459",
+    "project_id": "suwonfood-6f0b6",
+    "storage_bucket": "suwonfood-6f0b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418500689459:android:c8174c787f09145955ad46",
+        "android_client_info": {
+          "package_name": "com.cookandroid.suwonpractice3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418500689459-bnrr9sn36qhv66ofj2998q01tn0hof6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.suwonpractice3",
+            "certificate_hash": "0b4f749a4bbd9461860a93753608c5519a6e5d99"
+          }
+        },
+        {
+          "client_id": "418500689459-cvun3q12balqot44ipfkb59ce2bubqba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk644dHQqWD3LQXv0PqrNzTkwQRn8NJOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418500689459-cvun3q12balqot44ipfkb59ce2bubqba.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

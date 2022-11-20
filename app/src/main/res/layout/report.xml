@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/back"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/back"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/back"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/radiogroup">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="가게 추가하기"
+            android:textSize="15dp"
+            android:id="@+id/addstore"
+            android:layout_marginRight="5dp"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="오류 제보하기"
+            android:textSize="15dp"
+            android:id="@+id/reporterror"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="기타 문의하기"
+            android:textSize="15dp"
+            android:id="@+id/question"/>
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="15dp"
+        android:gravity="top"
+        android:id="@+id/reporter"
+        android:layout_below="@+id/radiogroup"
+        android:privateImeOptions="defaultInputmode=korean"
+        android:background="@drawable/reporter_border" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전송하기"
+        android:textSize="20dp"
+        android:id="@+id/sendBtn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

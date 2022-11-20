@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/front"
+        android:title="수원대 정문">
+    </item>
+    <item
+        android:id="@+id/back"
+        android:title="수원대 후문">
+    </item>
+</menu>

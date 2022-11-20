@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/develope"
+        android:title="개발자 문의">
+    </item>
+    <item
+        android:id="@+id/menuLogout"
+        android:title="로그아웃">
+    </item>
+</menu>

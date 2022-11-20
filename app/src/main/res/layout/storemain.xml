@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/back"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/questionmark" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="가게이름"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/desc"
+            android:layout_below="@id/name"
+            android:textSize="15dp"
+            android:text="대표메뉴"
+            android:layout_marginBottom="15dp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:id="@+id/starscore"
+            android:drawableTop="@drawable/star"
+            android:drawablePadding="2dp"
+            android:text="별점"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:id="@+id/review"
+            android:drawableTop="@drawable/review"
+            android:drawablePadding="2dp"
+            android:text="리뷰"
+            android:textSize="20dp"/>
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:id="@+id/exp"
+            android:drawableTop="@drawable/check"
+            android:drawablePadding="2dp"
+            android:textOff="가본곳"
+            android:textOn="가본곳"
+            android:textSize="20dp"/>
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:id="@+id/wish"
+            android:drawableTop="@drawable/bookmark"
+            android:drawablePadding="2dp"
+            android:textOff="찜"
+            android:textOn="찜 취소"
+            android:textSize="20dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메뉴판"
+        android:textSize="30dp"
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_margin="10dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/menulist"
+        android:layout_below="@+id/text2"/>
+
+</LinearLayout>
